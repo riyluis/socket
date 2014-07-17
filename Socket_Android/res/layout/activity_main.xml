@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escribe tu mensaje"
+        android:textSize="20sp"/>
+   
+    <EditText
+        android:id="@+id/caja_mensaje"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje:" />
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+
+    <TextView
+        android:id="@+id/mensaje_enviado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="" />
+
+</LinearLayout>
